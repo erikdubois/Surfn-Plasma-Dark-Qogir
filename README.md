@@ -12,7 +12,7 @@
 
 ---
 
-A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme. Ships only the **Surfn-Plasma-Dark-Qogir** theme and inherits the base **Surfn** icon set, so `surfn-icons-git` is required.
+A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme. Ships only the **Surfn-Plasma-Dark-Qogir** theme. It inherits **Surfn-Plasma-Dark**, so `surfn-plasma-dark-icons-git` must also be installed.
 
 ## Installation (Arch / Kiro — nemesis_repo)
 
@@ -20,12 +20,12 @@ A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme.
 sudo pacman -S surfn-plasma-dark-qogir-icons-git
 ```
 
-`surfn-icons-git` (base Surfn) is pulled in automatically as a dependency.
+Install `surfn-plasma-dark-icons-git` alongside it — this theme inherits Surfn-Plasma-Dark.
 
 ## Manual
 
 Copy the **Surfn-Plasma-Dark-Qogir** icon folder into `~/.icons` (or `~/.local/share/icons` on Plasma),
-make sure the base `Surfn` theme is present, then select **Surfn Plasma Dark Qogir** in your appearance settings.
+make sure `surfn-plasma-dark-icons-git` is installed, then select **Surfn Plasma Dark Qogir** in your appearance settings.
 
 ## License
 
